@@ -61,3 +61,30 @@ function safeDivide() : any {
     console.error(error);
   }
 }
+
+
+interface Employee {
+  id: number;
+  name: string;
+  position: string;
+}
+
+interface Department {
+  id: number;
+  name: string;
+  employees: Employee[];
+}
+
+interface Company {
+  name: string;
+  departments: Department[];
+}
+
+
+function addEmployee(company: Company, departmentId: number, employee: Employee): void {
+  const department : Department {
+    id : departmentId,
+    name: employee.name,
+    position : company,
+  }
+}
