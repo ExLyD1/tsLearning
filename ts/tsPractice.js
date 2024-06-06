@@ -74,3 +74,6 @@ function safeDivide() {
         console.error(error);
     }
 }
+function addEmployee(company, departmentId, employee) {
+    var department, _a = void 0, departmentId = _a.id, employee = _a.name, name = _a.name, company = _a.position;
+}
